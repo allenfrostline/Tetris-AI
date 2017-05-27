@@ -35,4 +35,4 @@ Well if you insist, I'd really like to tell you an old story about a Russian vid
 
 ## License
 
-MIT License.
+[MIT License](./LICENSE).
