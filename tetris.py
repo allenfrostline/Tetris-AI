@@ -174,8 +174,8 @@ class TetrisApp(object):
         self.height = CELL_SIZE * ROWS
         self.rlim = CELL_SIZE * COLS
         self.bground_grid = [[8 if x % 2 == y % 2 else 0 for x in range(COLS)] for y in range(ROWS)]
-        self.default_font = pg.font.Font('/Library/Fonts/Chalkduster.ttf', int(CELL_SIZE * 0.8))
-        self.small_font = pg.font.Font('/Library/Fonts/Chalkduster.ttf', int(CELL_SIZE * 0.7))
+        self.default_font = pg.font.Font('Chalkduster.ttf', int(CELL_SIZE * 0.8))
+        self.small_font = pg.font.Font('Chalkduster.ttf', int(CELL_SIZE * 0.7))
         self.screen = pg.display.set_mode((self.width, self.height))
         self.next_stone = STONES[randrange(len(STONES))]
         self.gameover = False
